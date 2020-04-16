@@ -1,0 +1,44 @@
+#btn-container
+{
+    position: absolute;
+    left: 30%;
+}
+#display
+{
+    background-color: "#fff";
+}
+
+#btn
+{
+    border: none;
+    padding: 0.5rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    background-color:darkviolet;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+#btn:hover
+{
+    border: none;
+    padding: 0.5rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    transition: 1s ease ;
+    background-color:rgb(243, 243, 243);
+    color:darkviolet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+}
+#btn-lbl
+{
+    color:darkviolet ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
